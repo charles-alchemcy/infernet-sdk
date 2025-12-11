@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: BSD-3-Clause-Clear
-pragma solidity ^0.8.4;
+pragma solidity ^0.8.3;
 
 import {ERC20} from "solady/tokens/ERC20.sol";
 import {Registry} from "../../../src/Registry.sol";
@@ -13,6 +13,7 @@ abstract contract BaseVerifier is IVerifier {
     /*//////////////////////////////////////////////////////////////
                                IMMUTABLE
     //////////////////////////////////////////////////////////////*/
+
 
     /// @notice Coordinator
     /// @dev Restricted to `internal` visibility to allow consumption in downstream mock implementations
