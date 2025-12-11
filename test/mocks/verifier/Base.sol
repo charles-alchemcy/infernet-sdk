@@ -14,6 +14,7 @@ abstract contract BaseVerifier is IVerifier {
                                IMMUTABLE
     //////////////////////////////////////////////////////////////*/
 
+
     /// @notice Coordinator
     /// @dev Restricted to `internal` visibility to allow consumption in downstream mock implementations
     Coordinator internal immutable COORDINATOR;
