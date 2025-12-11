@@ -11,6 +11,7 @@ contract MockAtomicVerifier is BaseVerifier {
                                 MUTABLE
     //////////////////////////////////////////////////////////////*/
 
+
     /// @notice Next proof valid status to return
     /// @dev Modified by `updateNextStatus()`; returned as proof validity in `requestProofVerification()`
     bool private status = false;
