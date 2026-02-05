@@ -21,7 +21,7 @@ abstract contract BaseVerifier is IVerifier {
     Coordinator internal immutable COORDINATOR;
 
     /*//////////////////////////////////////////////////////////////
-                                MUTABLE
+                                MUTABL
     //////////////////////////////////////////////////////////////*/
 
     /// @notice token address => verifier fee
