@@ -6,6 +6,7 @@ import {Registry} from "../../../src/Registry.sol";
 import {Coordinator} from "../../../src/Coordinator.sol";
 import {IVerifier} from "../../../src/payments/IVerifier.sol";
 
+
 /// @title BaseVerifier
 /// @notice Implements all necessary `IVerifier` functions + some utility functions, except for `requestProofVerification()`
 /// @dev Useful utility to be inherited by mock verifiers downstream
