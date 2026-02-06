@@ -9,7 +9,6 @@ import {Coordinated} from "../../src/utility/Coordinated.sol";
 contract MockCoordinated is Coordinated {
     /*//////////////////////////////////////////////////////////////
                
-                              CONSTRUCTOR
     //////////////////////////////////////////////////////////////*/
 
     /// @notice Initializes new MockCoordinated
