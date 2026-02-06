@@ -23,5 +23,6 @@ contract MockCoordinated is Coordinated {
     /// @dev Throws `NotCoordinator()` if called by non-coordinator address
     function mockCoordinatorPermissionedFn() external view onlyCoordinator {
         return;
+        
     }
 }
