@@ -1,10 +1,11 @@
 // SPDX-License-Identifier: BSD-3-Clause-Clear
-pragma solidity ^0.8.3;
+pragma solidity ^0.8.5;
 
 import {ERC20} from "solady/tokens/ERC20.sol";
 import {Registry} from "../../../src/Registry.sol";
 import {Coordinator} from "../../../src/Coordinator.sol";
 import {IVerifier} from "../../../src/payments/IVerifier.sol";
+
 
 /// @title BaseVerifier
 /// @notice Implements all necessary `IVerifier` functions + some utility functions, except for `requestProofVerification()`
@@ -20,7 +21,7 @@ abstract contract BaseVerifier is IVerifier {
     Coordinator internal immutable COORDINATOR;
 
     /*//////////////////////////////////////////////////////////////
-                                MUTABLE
+                                MUTABL
     //////////////////////////////////////////////////////////////*/
 
     /// @notice token address => verifier fee
