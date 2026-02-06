@@ -8,7 +8,7 @@ import {Coordinated} from "../../src/utility/Coordinated.sol";
 /// @notice Mocks the functionality of a contract implementing Coordinated (coordinator-permissioned functions)
 contract MockCoordinated is Coordinated {
     /*//////////////////////////////////////////////////////////////
-                              CONSTRUCTOR
+               
     //////////////////////////////////////////////////////////////*/
 
     /// @notice Initializes new MockCoordinated
@@ -23,5 +23,6 @@ contract MockCoordinated is Coordinated {
     /// @dev Throws `NotCoordinator()` if called by non-coordinator address
     function mockCoordinatorPermissionedFn() external view onlyCoordinator {
         return;
+        
     }
 }
