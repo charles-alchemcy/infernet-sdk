@@ -9,6 +9,7 @@ import {Registry} from "../../src/Registry.sol";
 /// @notice Mocks functionality of a protocol `feeRecipient`
 contract MockProtocol {
     /*//////////////////////////////////////////////////////////////
+                       
                                IMMUTABLE
     //////////////////////////////////////////////////////////////*/
 
